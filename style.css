@@ -1,0 +1,50 @@
+body {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.game-content {
+    border: 3px, solid, black;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 500px;
+    background-color: lightblue;
+}
+
+.title {
+    color: red;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.desc {
+    font-size: 25px;
+    text-align: center;
+}
+
+.options {
+    font-size: 20px;
+    align-items: center;
+}
+
+.opfac {
+    color: limegreen;
+}
+
+.opint {
+    color: blue;
+}
+
+.opdif {
+    color: red;
+}
+
+.bot {
+    margin-top: 20px;
+    font-size: 20px;
+}

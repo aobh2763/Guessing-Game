@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guessing Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="game-content" id="main">
+            <h1 class="title">Guessing Game</h1> <br>
+            <p class="desc">Choisissez une difficulté et cliquez sur "Jouer" <br> Vous avez 3 essais.</p> <br> <br>
+            <div class="options">
+                <div class="opfac"><input type="radio" name="diff" id="Facile" value="Facile" checked> Facile [0; 10[ <br></div>
+                <div class="opint"><input type="radio" name="diff" id="Intermediaire" value="Intermediaire"> Intermediaire [0; 50[ <br></div>
+                <div class="opdif"><input type="radio" name="diff" id="Difficile" value="Difficile"> Difficile [0; 100[ <br></div>
+            </div> <br>
+            <input type="submit" value="Jouer" class="bot" id="btn">
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
