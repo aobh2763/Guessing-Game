@@ -5,8 +5,6 @@ function gameloop() {
 
     let upper;
 
-    console.log("a");
-
     if (facil.checked) {
         upper = 10;
     } else if (inter.checked) {
@@ -17,6 +15,8 @@ function gameloop() {
 
     let guess = Math.floor(Math.random() * upper) + '';
     let tries = 3;
+
+    console.log(guess);
 
     while (tries > 0) {
         tries--;
