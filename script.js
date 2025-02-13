@@ -21,8 +21,12 @@ function gameloop() {
     while (tries > 0) {
         tries--;
         let userGuess = prompt("Donner un nombre dans [0, " + upper + "[ (Il reste " + (tries + 1) + " essais)");
+        if (userGuess == null) {
+            break;
+        }
         if (userGuess == guess) {
             alert("Bravo, vous avez gagné.");
+            tries = 3;
             break;
         }
     }
